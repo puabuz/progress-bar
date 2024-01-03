@@ -1,16 +1,32 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <div class="wrapper">
+    <div class="sample">
+      <p>Lorem ipsum dolor sit elit. Commodi, eligendi.</p>
+      <p>Lorem ipsum dolor sit elit. Commodi, eligendi.</p>
+      <p>Lorem ipsum dolor sit elit. Commodi, eligendi.</p>
+      <p>Lorem ipsum dolor sit elit. Commodi, eligendi.</p>
+      <p>Lorem ipsum dolor sit elit. Commodi, eligendi.</p>
+      <p>Lorem ipsum dolor sit elit. Commodi, eligendi.</p>
+      <p>Lorem ipsum dolor sit elit. Commodi, eligendi.</p>
+      <p>Lorem ipsum dolor sit elit. Commodi, eligendi.</p>
+      <p>Lorem ipsum dolor sit elit. Commodi, eligendi.</p>
+      <p>Lorem ipsum dolor sit elit. Commodi, eligendi.</p>
+      <p>Lorem ipsum dolor sit elit. Commodi, eligendi.</p>
+      <p>Lorem ipsum dolor sit elit. Commodi, eligendi.</p>
+      <p>Lorem ipsum dolor sit elit. Commodi, eligendi.</p>
+      <p>Lorem ipsum dolor sit elit. Commodi, eligendi.</p>
+      <p>Lorem ipsum dolor sit elit. Commodi, eligendi.</p>
+      <p>Lorem ipsum dolor sit elit. Commodi, eligendi.</p>
+      <p>Lorem ipsum dolor sit elit. Commodi, eligendi.</p>
+      <p>Lorem ipsum dolor sit elit. Commodi, eligendi.</p>
+      <p>Lorem ipsum dolor sit elit. Commodi, eligendi.</p>
+    </div>
+  </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
-
 export default {
   name: "App",
-  components: {
-    HelloWorld,
-  },
 };
 </script>
 
@@ -22,5 +38,13 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+.sample {
+  margin: 0 auto;
+  width: 400px;
+  height: 400px;
+  overflow-y: scroll;
+  border: 1px solid gray;
 }
 </style>
