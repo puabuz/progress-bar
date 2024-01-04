@@ -64,11 +64,11 @@
         <table>
           <tr>
             <td>Agree All</td>
-            <td>{{ flags.agree ? 1 : 0 }}</td>
+            <td>{{ flags.agree ? 'Yes' : 'No' }}</td>
           </tr>
           <tr>
             <td>Get Spam</td>
-            <td>{{ flags.getSpam ? 1 : 0 }}</td>
+            <td>{{ flags.getSpam ? 'Yes' : 'No' }}</td>
           </tr>
           <tr v-if="flags.getSpam">
             <td>Spam type</td>
